@@ -7,19 +7,20 @@
 </head>
 
 <body>
-	<h1>Feedback Form</h1>
+
         <form method="post">
+				<h2>Feedback Form</h2>
 	        <div>
 		       <label for="name">Name</label>
 		       <input type="text" id="name" minlength="3" maxlength="50" required> <br><br>
 	      </div>
 			<div>
 		       <label for="portfolio">PortFolio</label>
-		       <input type="url" id="portfolio" required><br><br>
+		       <input type="url" id="portfolio" name="portfolio" required><br><br>
 	      </div>
 			<div>
 		       <label for="favColor">Favorite Color</label>
-		       <input type="color" id="color" name="color" required>
+		       <input type="color" id="favColor" name="favColor">
 	      </div>
 <!-- 			<div>
 			  <label for="favColor">Favorite Color:</label>
@@ -34,11 +35,9 @@
 			
 			<div>
 
-                   <label for="likeness"> how much they like their colour.</label>
+                   <label for="likeness"> how much do you like your favorite color?</label>
                    <input type="range" id="likeness" name="likeness" min="1" max="100"><br><br>
-			</div>
-			
-	
+			</div>	
 </form>
 
 </body>
